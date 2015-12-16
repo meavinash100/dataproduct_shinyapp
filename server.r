@@ -16,10 +16,10 @@ require(SnowballC)
 
 tweetmine <- function(myword, mycount){
         #Setting up oauth keys
-        api_key <- "6XQk3irJ9CrsabpDUrKYcUfUS"
-        api_secret <- "zCB8ZIyRr3A51pfGjYW42FXSHjKy4Ve9Bcwu3WTBxz4gglNXEZ"
-        access_token <- "25485040-y1tfR6tFR1CAySNR46tOWZdlebeGALI4uav29VSdc"
-        access_token_secret <- "bnJU8bGfxt474Sh59kiNIZvltTUGGTn5obEbwMS7GblBU"
+        api_key <- "Your Twitter API Key"
+        api_secret <- "Your Twitter API Secret Key"
+        access_token <- "Your Twitter access_token"
+        access_token_secret <- "Your twitter access_token_secret"
         #doing oauth of twitter
         #setup_twitter_oauth(api_key, api_secret)
         setup_twitter_oauth(api_key,api_secret,access_token,access_token_secret)
